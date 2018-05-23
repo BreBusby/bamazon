@@ -28,7 +28,7 @@ CREATE TABLE departments (
 	DepartmentName VARCHAR(100) NOT NULL,
 	OverheadCost DECIMAL(10,2) NOT NULL,
 	TotalSales DECIMAL(10,2),
-	PRIMARY KEY(DepartmentId)
+	PRIMARY KEY(DepartmentId),
 );
 
 INSERT INTO departments(DepartmentName, OverheadCost) VALUES('Running Shoes', 500);
